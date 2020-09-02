@@ -1,6 +1,5 @@
 <?php
     require_once 'mysqldb.php';
-    include 'socket.php';
 
     if(isset($_POST['id']) and isset($_POST['status'])){
         $id = $_POST['id'];

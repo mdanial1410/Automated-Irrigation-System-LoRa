@@ -100,7 +100,7 @@
      }
     
      function updateChart() {
-        $.getJSON("http://13.229.201.172/Socket-4/getsensor.php", addData2);
+        $.getJSON("http://SERVER_IP/getsensor.php", addData2);    //change server ip accordingly
      }
 
      function addData(data){
@@ -186,7 +186,7 @@
 	    chart.render();
     }
 
-    $.getJSON("http://13.229.201.172/Socket-4/getsensor.php", addData);
+    $.getJSON("http://SERVER_IP/getsensor.php", addData);   //change server ip accordingly
       
     }
      </script>
